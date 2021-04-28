@@ -1,0 +1,1 @@
+from mnist_test import get_data
