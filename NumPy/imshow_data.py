@@ -1,1 +1,4 @@
-from mnist_test import get_data
+from mnist import get_data
+
+def imshow_data(label,dataset):
+    pass
