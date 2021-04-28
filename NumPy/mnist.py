@@ -15,5 +15,3 @@ def get_data(filename):
     label = np.array([row[0] for row in data])
     
     return label,dataset
-
-print(get_data(filename)[0][0])
