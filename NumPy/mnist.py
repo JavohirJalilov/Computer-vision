@@ -8,10 +8,12 @@ def get_data(filename):
     Parametrs:
         str: filename
     returns:
-        Numpy array: array
+        Numpy array: array,label and dataset
   '''
     data = np.genfromtxt(filename,delimiter=',',dtype=np.int64)
     dataset = np.array([np.reshape(row[1:],(28,28)) for row in data])
-    print(dataset[0].ndim)
+    label = np.array([row[0] for row in data])
+    
+    return label,dataset
 
-get_data(filename)
+print(get_data(filename)[0][0])
