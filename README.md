@@ -1,1 +1,1 @@
-### rtificial intelligence. Computer learning and Machine learning
+### Artificial intelligence. Computer learning and Machine learning
