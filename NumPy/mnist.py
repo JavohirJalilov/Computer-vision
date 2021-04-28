@@ -1,7 +1,7 @@
 import numpy as np
 
 filename = 'mnist_test.csv'
-def get_data(filename):
+def get_data(filename:str)->np.ndarray:
     '''
     Edit the data using the numpy genfromtxt() function.
   
