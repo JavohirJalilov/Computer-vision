@@ -1,1 +1,1 @@
-### Artificial intelligence. Computer learning and Machine learning
+### Artificial intelligence. Computer vision and Machine learning
