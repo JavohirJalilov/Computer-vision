@@ -10,8 +10,8 @@ def drawing(img,points):
         end_point = (x+w,y+h)
         label = labels[i][0]
 
-        cv2.rectangle(img,start_point,end_point,color=(255, 0, 0),thickness=3)
-        cv2.putText(img,label,(start_point[0]-15,start_point[1]-15),cv2.FONT_HERSHEY_SIMPLEX,2.0,color=(255, 0, 0),thickness=3)
+        cv2.rectangle(img,start_point,end_point,color=(255, 0, 0),thickness=2)
+        cv2.putText(img,label,(start_point[0]-15,start_point[1]-15),cv2.FONT_HERSHEY_SIMPLEX,1.2,color=(255, 0, 0),thickness=2)
         plt.imshow(img)
     plt.show()
 
